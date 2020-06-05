@@ -1,0 +1,24 @@
+.call_btn{
+  width: 81px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $yellow;
+  border-radius: 6px;
+  background-image: url("/build/img/raster/Group_call_m.png");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @include tablet {
+    
+  }
+
+  @include desktop {
+    width: 160px;
+    height: 40px;
+    border-radius: 15px;
+    background-image: url("/build/img/raster/Group\ call\ btn.png");
+  }
+
+}

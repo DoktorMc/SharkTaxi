@@ -209,14 +209,14 @@
    background: #ff0;
    color: #000;
  }
- 
+
  @if $legacy_browser_support {
  
    /**
     * Addresses margins set differently in IE 6/7.
     */
  
-   p{
+    p{
      margin: 0;
    }
  
