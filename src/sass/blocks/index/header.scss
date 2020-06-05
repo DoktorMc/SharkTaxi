@@ -8,6 +8,12 @@
 
     padding: 60px 0 60px;
   }
+  .page_header_bar_left {
+    .page_header_bar_left-logo {
+      padding-left: 100px;
+    }
+  }
+
   .page_header_bar_right {
     display: flex;
     @include tablet {
@@ -62,7 +68,7 @@
         font-size: 14px;
         line-height: 16px;
       }
-      &:focus{
+      &:focus {
         outline: none;
       }
     }
