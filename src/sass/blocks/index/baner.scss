@@ -1,5 +1,127 @@
-.page_baner{
+.page_baner {
+ 
   height: 610px;
   background-image: url(./../../../../build/img/raster/BGBaner.png);
   background-repeat: no-repeat;
+}
+
+.container_for_slider {
+  // width: 1700px;
+}
+
+.page_baner-slider-slider_item {
+  height: 530px;
+  .item_car {
+    display: inline-block;
+    position: relative;
+    width: 1116px;
+    height: 569px;
+    left: 150px;
+    top: 25px;
+    &-2 {
+      display: inline-block;
+      position: relative;
+      width: 1000px;
+      height: auto;
+      left: 200px;
+    }
+    &-3 {
+      display: inline-block;
+      position: relative;
+      width: 1000px;
+      height: auto;
+      left: 200px;
+      top: 40px;
+    }
+    &-4 {
+      display: inline-block;
+      position: relative;
+      width: 900px;
+      height: auto;
+      left: 180px;
+      top: 80px;
+    }
+  }
+  .item_logo {
+    position: relative;
+    width: 293px;
+    height: 127.89px;
+    left: 1100px;
+    top: -410px;
+    z-index: -1;
+    &-2 {
+      position: relative;
+      width: 293px;
+      height: 127.89px;
+      left: 1070px;
+      top: -350px;
+      z-index: -1;
+    }
+    &-3 {
+      position: relative;
+      width: 293px;
+      height: 127.89px;
+      left: 1100px;
+      top: -350px;
+      z-index: -1;
+    }
+    &-4 {
+      position: relative;
+      width: 293px;
+      height: 127.89px;
+      left: 1060px;
+      top: -200px;
+      z-index: -1;
+    }
+  }
+  .item_mabile {
+    position: relative;
+    left: 1300px;
+    top: -690px;
+    &-2 {
+      position: relative;
+      left: 1300px;
+      top: -620px;
+    }
+    &-3 {
+      position: relative;
+      left: 1300px;
+      top: -620px;
+    }
+    &-4 {
+      position: relative;
+      left: 1300px;
+      top: -480px;
+    }
+  }
+}
+
+.slick-dots {
+  bottom: -70px;
+  li {
+    margin: 0 10px;
+    button {      
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #c4c4c4;
+        transition: .3s;
+        &:before{
+          opacity: 0;
+          color: $white;
+        }
+      
+    }
+    &.slick-active{
+      button {       
+          width: 15px;
+          height: 15px;
+          border-radius: 50%;
+          background: #FCC83F;
+          &:before{
+            opacity: 0;
+          }
+        }
+    }
+  }
 }

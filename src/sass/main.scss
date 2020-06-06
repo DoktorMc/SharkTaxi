@@ -8,8 +8,11 @@
 @import "global/vars";
 
 // mixins
-
 @import "global/mixins";
+
+// slider
+@import "global/slick.scss";
+@import "global/slick-theme.scss";
 
 // common
 @import "blocks/common/container";

@@ -1,10 +1,11 @@
 .page_header_bar_left-menu_wrap {
-  position: fixed;
-  z-index: 1;
+  // position: fixed;
+  // top:0;
+  z-index: 10;
 
   .page_header_bar_left-menu_hamburger {
     position: absolute;
-    z-index: 1;
+    z-index: 9;
     padding-top: 10px;
     width: 24px;
     height: 24px;
@@ -41,7 +42,7 @@
 
   .page_header_bar_left-menu_toggler {
     position: absolute;
-    z-index: 2;
+    z-index: 10;
     cursor: pointer;
     width: 25px;
     height: 25px;
@@ -84,6 +85,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 2;
     div {
       background: rgba(43, 43, 43, 0.8);
       backdrop-filter: blur(10px);
