@@ -1,0 +1,57 @@
+.statistics{
+  margin-top: 63px;
+}
+
+.statistics-description {
+  .statistics-description_text {
+    font-family: $futuraBookC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+  }
+}
+
+.statistics-stat{
+  display: flex;
+  justify-content: center;
+  margin-top: 84px;
+  .statistics-stat_items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .statistics-stat_items-item{
+      text-align: center;
+      padding: 0 10px;
+      .statistics-stat_items-item_img{
+        width: 60px;
+        height: 60px;
+      }
+      .statistics-stat_items-item_count{
+        width: 200px;
+        font-family: $futuraBold;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 46px;
+        text-align: center;
+        color: #FECA40; 
+      }
+      .statistics-stat_items-item_text{
+        font-family: $futuraBookC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 27px;
+        text-align: center;
+        color: #6A6A6A;
+      }
+    }
+  }
+  .statistics-stat_img{
+    background: url('/build/img/vector/Vector\ 2.svg') bottom no-repeat;
+    margin: 0 122px;
+    padding: 0 35px;
+  }
+}

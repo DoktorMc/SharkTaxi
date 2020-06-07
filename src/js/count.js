@@ -18,6 +18,6 @@ function countup(className) {
 
 
 $(function () {
-  countup("facts_items-numbers");
+  countup("statistics-stat_items-item_count");
 });
 

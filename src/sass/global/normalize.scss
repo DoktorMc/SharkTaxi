@@ -166,7 +166,7 @@
   * contexts in Firefox 4+, Safari, and Chrome.
   */
  
- h1 {
+ h1, p {
    margin: 0;
  }
 
@@ -216,7 +216,7 @@
     * Addresses margins set differently in IE 6/7.
     */
  
-    p{
+  p{
      margin: 0;
    }
  

@@ -29,3 +29,12 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'FuturaBold';
+  src: url('../../../build/fonts/Futura-Bold.woff2') format('woff2'),
+      url('../../../build/fonts/Futura-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
