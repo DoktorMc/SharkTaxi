@@ -1,0 +1,47 @@
+.carclass{
+  background: url(/build/img/vector/carclassBG.svg) center no-repeat;
+  margin: 80px 0;
+  .carclass_header {
+    font-family: $futuraDemiC;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+  }
+  .carclass_slider{
+    
+    margin-top: 110px;
+    .slick-track{
+      height: 280px;
+    }
+    .carclass_slider-items{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      transition: all linear .4s;
+      filter: blur(4px);
+      
+    }
+    .slick-center{
+        transform: scale(1.6);
+        filter: blur(0);
+        .carclass_slider-items_title{
+          transform: scale(0.7);
+        }
+      }
+    .carclass_slider-item_img{
+      // position: absolute;
+      height: 135px;
+      
+
+    }
+    .carclass_slider-items_title{
+      font-family: $futuraBold;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 21.6873px;
+      line-height: 25px;
+    }
+  }
+}

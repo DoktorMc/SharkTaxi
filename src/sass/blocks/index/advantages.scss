@@ -1,4 +1,58 @@
-.advantges{
-  background: url('/build/img/vector/advantagesBG.svg') right no-repeat;
-  
+.advantges {
+  margin-top: 84px;
+  .advantges_header {
+    font-family: $futuraDemiC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+    text-align: center;
+  }
+  .advantges_wraper {
+    margin-top: 60px;
+    display: flex;
+    background: url("/build/img/vector/advantagesBG.svg") right no-repeat;
+    .advantges_description {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      .advantges_description-items {
+        margin-left: 127px;
+        display: flex;
+        .advantges_description-items_img_wraper{
+          margin-bottom: 50px;
+          width: 80px;
+          height: 80px;
+          background: #FFFFFF;
+          box-shadow: 0px 20px 40px rgba(136, 136, 136, 0.1);
+          border-radius: 20px;
+        }
+        .advantges_description-items_img{
+          position: relative;
+          top: 13px;
+          left: 13px;
+          width: 54px;
+          height: 54px;     
+        }
+        .advantges_description-items_text{
+          margin-left: 29px;
+          margin-top: 17px;
+          font-family: $futuraDemiC;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 23px;
+        }
+      }
+    }
+  }
+
+  .advantges_img {
+    height: 582px;
+    background: url("/build/img/vector/Vector 2.svg") center no-repeat;
+    img {
+      padding-top: 65px;
+    }
+  }
 }

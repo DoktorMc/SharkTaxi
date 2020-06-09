@@ -1,0 +1,78 @@
+.orderby {
+  padding-top: 60px;
+  text-align: center;
+  .orderby_header {
+    font-family: $futuraDemiC;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+  }
+  .orderby_slider-overlay {
+    position: absolute;
+    z-index: 2;
+    top: 83px;
+    left: 458px;
+  }
+
+  .orderby_slider {
+    display: inline-block;
+    width: 600px;
+    // margin-top: 60px;
+    background: url(/build/img/vector/BG.svg) center no-repeat;
+    padding-top: 100px;
+    .orderby_slider-items {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: auto;
+      .orderby_slider-items_img {
+        height: 660px;
+      }
+      .orderby_slider-items_description {
+        font-family: $futuraDemiC;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 30px;
+        span {
+          font-family: $futuraDemiC;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 30px;
+          line-height: 35px;
+          text-align: center;
+          text-transform: lowercase;
+          color: #fdca43;
+        }
+      }
+    }
+    .slick-prev {
+      left: 0;
+      transform: rotate(180deg);
+    }
+
+    .slick-next {
+      right: 0;
+    }
+
+    .slick-arrow {
+      top: 50%;
+      height: 26px;
+      width: 14px;
+      margin-top: -13px;
+      position: absolute;
+      font-size: 0;
+      cursor: pointer;
+      background-color: transparent;
+      border: none;
+      background-image: url(https://tarkikromanski.github.io/files/arrow-slider.png);
+      background-repeat: no-repeat;
+    }
+    
+  }
+}
