@@ -1,6 +1,7 @@
 .orderby {
   padding-top: 60px;
   text-align: center;
+
   .orderby_header {
     font-family: $futuraDemiC;
     font-weight: 600;
@@ -8,6 +9,7 @@
     line-height: 47px;
     text-align: center;
   }
+
   .orderby_slider-overlay {
     position: absolute;
     z-index: 2;
@@ -21,15 +23,18 @@
     // margin-top: 60px;
     background: url(/build/img/vector/BG.svg) center no-repeat;
     padding-top: 100px;
+
     .orderby_slider-items {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
       width: auto;
+
       .orderby_slider-items_img {
         height: 660px;
       }
+
       .orderby_slider-items_description {
         font-family: $futuraDemiC;
         font-style: normal;
@@ -39,6 +44,7 @@
         text-align: center;
         text-transform: uppercase;
         margin-top: 30px;
+
         span {
           font-family: $futuraDemiC;
           font-style: normal;
@@ -51,28 +57,48 @@
         }
       }
     }
-    .slick-prev {
-      left: 0;
-      transform: rotate(180deg);
+
+    .slick-prev:before,
+    .slick-next:before {
+      font-family: "slick";
+      font-size: 60px;
+      line-height: 1;
+      color: #E4E4E4;
+      opacity: 0.75;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      
     }
 
-    .slick-next {
-      right: 0;
-    }
+    .slick-prev:hover:before,
+    .slick-next:hover:before {
+      color: #FCC940;
+      opacity: 0.75;
 
-    .slick-arrow {
-      top: 50%;
-      height: 26px;
-      width: 14px;
-      margin-top: -13px;
-      position: absolute;
-      font-size: 0;
-      cursor: pointer;
-      background-color: transparent;
-      border: none;
-      background-image: url(https://tarkikromanski.github.io/files/arrow-slider.png);
-      background-repeat: no-repeat;
     }
     
+
+    .slick-prev:before {
+      content: "‹";
+    }
+
+    [dir="rtl"] .slick-prev:before {
+      content: "›";
+    }
+
+    [dir="rtl"] .slick-next {
+      left: -10px;
+      top: 70px;
+      right: auto;
+    }
+
+    .slick-next:before {
+      content: "›";
+    }
+
+    [dir="rtl"] .slick-next:before {
+      content: "‹";
+    }
+
   }
 }
