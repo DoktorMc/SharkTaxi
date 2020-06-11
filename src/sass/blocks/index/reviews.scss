@@ -1,0 +1,49 @@
+.reviews {
+  background-color: #f9f9f9;
+  .reviews_header {
+    padding-top: 60px;
+    font-family: FuturaDemiC;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .reviews_slider {
+    margin-top: 60px;
+    display: flex;
+    .reviews_slider-item {
+      width: 628px;
+      height: 301px;
+      .reviews_slider-item_title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .reviews_slider-item_title-img {
+          margin-right: 40px;
+          border-radius: 35px;
+        }
+        .reviews_slider-item_title-namedate {
+          .reviews_slider-item_title-namedate_name {
+            font-family: $futuraDemiC;
+            font-size: 30px;
+            line-height: 35px;
+          }
+          .reviews_slider-item_title-namedate_thedate {
+            font-family: $futuraBookC;
+            font-size: 20px;
+            line-height: 23px;
+            text-transform: lowercase;
+            color: #bdbdbd;
+          }
+        }
+      }
+      .reviews_slider-item_review {
+        font-family: $futuraBookC;
+        font-size: 20px;
+        line-height: 23px;
+        text-transform: lowercase;
+        color: #9a9a9a;
+      }
+    }
+  }
+}

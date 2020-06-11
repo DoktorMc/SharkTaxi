@@ -9,6 +9,9 @@
   background-image: url("/build/img/raster/Group_call_m.png");
   background-repeat: no-repeat;
   background-position: center;
+  &:hover{
+    background-color: $light-yellow;
+  }
 
   @include tablet {
     

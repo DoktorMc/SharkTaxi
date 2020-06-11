@@ -19,7 +19,7 @@
   //   top: 345px;
   // }
   .services_container{
-    margin-top: 60px;
+    margin: 60px 0 120px;
     display: flex;
     flex-wrap: wrap;
     align-content: stretch;
@@ -51,6 +51,12 @@
         font-size: 18px;
         line-height: 20px;
       }
+    }
+    &:before{
+      content: url("/build/img/vector/TOp 1.svg");
+      position: absolute;
+      top: 4300px;
+      left: -100px;
     }
   }
 
