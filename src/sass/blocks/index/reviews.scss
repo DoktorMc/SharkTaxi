@@ -11,9 +11,20 @@
   .reviews_slider {
     margin-top: 60px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    
     .reviews_slider-item {
-      width: 628px;
-      height: 301px;
+      padding-top: 80px;
+      height: 305px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: all linear 0.4s;
+      transform: scale(0.7);
+      filter: blur(4px);
+      margin: 0 50px;
+
       .reviews_slider-item_title {
         display: flex;
         justify-content: center;
@@ -25,25 +36,28 @@
         .reviews_slider-item_title-namedate {
           .reviews_slider-item_title-namedate_name {
             font-family: $futuraDemiC;
-            font-size: 30px;
+            font-size: 24px;
             line-height: 35px;
           }
           .reviews_slider-item_title-namedate_thedate {
             font-family: $futuraBookC;
-            font-size: 20px;
-            line-height: 23px;
+            font-size: 14px;
             text-transform: lowercase;
             color: #bdbdbd;
           }
         }
       }
       .reviews_slider-item_review {
+        padding-top: 15px;
         font-family: $futuraBookC;
-        font-size: 20px;
-        line-height: 23px;
+        font-size: 14px;
         text-transform: lowercase;
         color: #9a9a9a;
       }
+    }
+    .slick-center {
+      transform: scale(1.5);
+      filter: blur(0);
     }
   }
 }
